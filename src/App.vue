@@ -16,8 +16,8 @@
   font-family: "Micosoft Yahei","Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #333;
-  font-size: 14px;
+  color: $lightblack;
+  font-size: $fontsize;
 }
 
 </style>

@@ -54,18 +54,18 @@ export default {
 @import '../assets/styles/variable.scss';
 .footer{
     display: flex;
-    font-size: 14px;
+    font-size: $fontsize;
     justify-content: space-around;
-    height: 39px;
+    height: $footerheight -1;
     border-top: 1px solid #ccc;
     padding: 10px 0;
     background-color: #fff;
     a{
-        color: #999;
+        color: $gray;
     }
     .iconfont {
         font-size: 20px;
-        color: #999;
+        color: $gray;
     }
     a.router-link-exact-active{
         color: $default-color;

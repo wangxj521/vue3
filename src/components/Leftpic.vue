@@ -55,6 +55,7 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
+@import '../assets/styles/variable.scss';
 .smlist {
   padding: 0 0.3rem;
   margin: 0;
@@ -65,7 +66,7 @@ export default {
   }
 }
 .smitem {
-  height: 1.4rem;
+  height: $picheight;
   padding: .2rem 0;
   border-bottom: 1px dotted #ccc;
 }
@@ -75,22 +76,22 @@ export default {
 .leftbox {
   box-sizing: border-box;
   width: 100%;
-  padding-left: 1.8rem;
+  padding-left: $picwidth;
   float: right; 
-  margin-left: -1.8rem;
+  margin-left: -$picwidth;
 }
 .nopic{
   width: 100%;
 }
 .smleft {
-  height: 1.4rem;
+  height: $picheight;
   text-align: left;
   padding-left: 0.2rem;
 }
 .smright {
   float: left;
-  width: 1.8rem;
-  height: 1.4rem;
+  width: $picwidth;
+  height: $picheight;
   img{
     float: left;
     width: 100%;
@@ -100,9 +101,9 @@ export default {
 .pbtitle {
   padding: 0;
   margin: 0;
-  height: 0.8rem;
-  line-height: 0.4rem;
-  font-size: 0.28rem;
+  height: $lineheight*2;
+  line-height: $lineheight;
+  font-size: $fontsize;
   color: rgb(72,72,72);
   margin-bottom: 0.2rem;
   word-break: break-all;
@@ -132,6 +133,7 @@ export default {
 .pbintr {
   padding-top: 0.1rem;
   font-size: 0.28rem;
+  overflow: hidden;
   p {
     padding: 0;
     margin: 0;
