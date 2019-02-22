@@ -1,0 +1,37 @@
+html,body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+div,p,ul,li,tr,td,h1,h2,h3,h4,h5,h6 {
+    padding: 0;
+    margin: 0;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.fr {
+    float: right;
+}
+.fl {
+    float: left;
+}
+input,textarea {
+    border: none;
+    outline: none;
+    background-color: none;
+}
+.clearfix:before,
+.clearfix:after{
+  content: '';
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  zoom: 1;
+}

@@ -1,0 +1,82 @@
+import * as types from './mutation_type'
+
+export default {
+    setcount({commit},data){
+        commit(types.SETCOUNT,data)
+    },
+    changenick({commit},data){
+        commit(types.URSERNICK,data)
+    },
+    changeheadimg({commit},data){
+        commit(types.USERHEADIMG,data)
+    },
+    addlist({commit},data){
+        commit(types.ADDLIST,data)
+    },
+    changeallow({commit},data){
+        commit(types.CHANGEALLOW,data)
+    },
+    changestate({commit},data){
+        commit(types.CHANGESTATE,data)
+    },
+    changestated({commit},data){
+        commit(types.CHANGESTATED,data)
+    },
+    changefirst({commit},data){
+        commit(types.CHANGEFIRST,data)
+    },
+    changexczx({commit},data){
+        commit(types.CHANGEXCZX,data)
+    },
+    changepajs({commit},data){
+        commit(types.CHANGEPAJS,data)
+    },
+    changegrzx({commit},data){
+        commit(types.CHANGEGRZX,data)
+    },
+    changeqt({commit},data){
+        commit(types.CHANGEQT,data)
+    },
+
+    getlistdata({commit},data){
+        commit(types.GETLISTDATA,data)
+    },
+    
+    getfirstlist({commit},data){
+        commit(types.GETFIRSTLIST,data)
+    },
+    getdyxflist({commit},data){
+        commit(types.GETLISTDATAS,data)
+    },
+    getxczxlist({commit},data){
+        commit(types.GETXCZXLIST,data)
+    },
+    getpajslist({commit},data){
+        commit(types.GETPAJSLIST,data)
+    },
+    getgrzxlist({commit},data){
+        commit(types.GETGRZXLIST,data)
+    },
+    getqtlist({commit},data){
+        commit(types.GETQTLIST,data)
+    },
+
+    getstar({commit},data){
+        commit(types.GETSTART,data)
+    },
+    setmyd({commit},data){
+        commit(types.SETMYD,data)
+    },
+    settuzhi({commit},data){
+        commit(types.TUZHI,data)
+    },
+    settuzhinm({commit},data){
+        commit(types.TUZHINM,data)
+    },
+    setzy({commit},data){
+        commit(types.XUANZY,data)
+    },
+    setzz({commit},data){
+        commit(types.XUANZZ,data)
+    }
+}
