@@ -7,7 +7,7 @@
         <div class="cun">张王村</div>
         
       </div>
-      <div class="tips"></div>
+      <div class="tips">天气信息</div>
     </div>
     <div>
       <Rightpic :items = 'listarr' :routername ='showinfo' />
